@@ -1,0 +1,10 @@
+﻿# 06
+Berdasarkan dari pengalaman saya, tool monitoring yang biasa saya gunakan ialah
+1. ELK (Elasticsearch, Logstash, Kibana)
+ELK di sini fungsinya sebagai log management, dan juga log aggregator. ELK mampu membaca semua log sehingga log yang berbentuk raw bisa menjadi visualisasi yang bisa dilihat dan dipahami. Fungsi-fungsinya ialah Elasticsearch sebagai database untuk menyimpan log yang diinput, lalu Logstash untuk pipeline dengan menaruh data ke Elasticsearch yang dimana Kibana sudah terhubung dengan Elasticsearch, lalu Kibana untuk visualisasi data-data tersebut menjadi pie, bar, grapich, geomap, dan fitur-fitur lainnya. Keuntungannya ialah selain free dan open-source, ELK mampu membaca semua log sekaligus tanpa perlu memisahkan satu persatu pipeline yang dibuat, dan juga terdapat fitur-fitur yang cocok untuk konversi data semacam geomap yang dapat menampilkan titik koordinat berdasarkan ip, dan penggunaan yang mudah.
+
+2. Prometheus
+Prometheus fungsinya ialah sebagai monitoring agen yaitu menangkap log yang berjalan pada cluster tersebut, Prometheus memang cocok untuk monitoring dengan cluster kubernetes yang dimana Prometheus akan menangkap/merecord segala kegiatan yang ada pada cluster. Mulai dari memory usage, cpu usage, pvc status, pods status, service status, ingress status, dan lain-lain yang ada pada cluster kubernetes. Keuntungannya ialah selain free dan open-source, Prometheus tidak perlu melakukan config, karena Prometheus langsung membaca apapun dari cluster tersebut. Namun Prometheus tidak bisa menangkap data dari cluster lain jika cluster tersebut tidak diiinstall Prometheus, dan juga bersifat lightweight.
+
+4. Grafana
+Grafana yaitu berfungsi sebagai visualisasi monitoring yang bisa dilakukan secara real-time. Sama seperti Kibana fungsinya untuk visualisasi. Keuntungannya free dan open-source, lalu config yang mudah, bisa diintegrasikan dengan hal lain seperti Elasticsearch, Stackdriver, Prometheus, OpenStack, dan lain-lain, real-time yang bisa diconfig, dan juga lightweight.
