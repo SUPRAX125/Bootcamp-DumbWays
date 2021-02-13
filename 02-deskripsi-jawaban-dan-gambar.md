@@ -30,6 +30,7 @@ VPC (Virtual Private Cloud), Network Gateway, CDN (Content Delivery Network), Lo
 
 
 
+
 ## OpenStack
 
 OpenStack merupakan Software Open Source untuk membangun Cloud Computing dan berbasis IaaS juga, sama seperti AWS dan dibuat oleh
