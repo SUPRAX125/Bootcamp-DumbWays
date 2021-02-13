@@ -27,7 +27,7 @@ Service ini banyak dimiliki AWS seperti migrasi untuk Database, Server, dan data
 
 AWS memiliki fitur untuk konfigurasi jaringan yang ada pada cloud computing ini. Bisa membuat suatu jaringan untuk 
 VPC (Virtual Private Cloud), Network Gateway, CDN (Content Delivery Network), Load Balancer, dan lain-lain
-
+# 
 
 
 
