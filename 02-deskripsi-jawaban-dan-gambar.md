@@ -96,7 +96,7 @@ database dapat mengatur beberapa database instance sesuai kebutuhan.
 
 Layanan untuk memonitor dan mengukur billing, benchmark, skalabilitas, dan statistik proses pada cloud.
 
-Note:
+>Note:
 >Namun untuk perbedaan yang jelas antara OpenStack dan AWS ialah dari fitur yang dimilik. AWS memiliki fitur yang banyak
 >dibandingkan dengan OpenStack, service yang saya jelaskan di atas untuk AWS hanya sebagian kecil, AWS masih memiliki banyak
 >fitur. Dan perbedaan yang sangat jelas ialah dari segi budget bahwa OpenStack lebih murah ketimbang AWS dikarenakan Openstack
