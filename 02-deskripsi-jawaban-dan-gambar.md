@@ -1,4 +1,4 @@
-#AWS
+## AWS
 
 AWS (Amazon Web Services) merupakan penyedia layanan jasa Cloud Computing dimana kita akan disediakan infrastruktur
 yang disediakan oleh Amazon, sehingga kita tinggal menggunakan beberapa komponen seperti virtual machine, server, network, dan lain-lain.
@@ -30,7 +30,7 @@ VPC (Virtual Private Cloud), Network Gateway, CDN (Content Delivery Network), Lo
 
 
 
-#OpenStack
+## OpenStack
 
 OpenStack merupakan Software Open Source untuk membangun Cloud Computing dan berbasis IaaS juga, sama seperti AWS dan dibuat oleh
 Rackspace Hosting dan bersana NASA pada tahun 2010. Openstack banyak didukung oleh beberapa perusahaan seperti Ciscon,
